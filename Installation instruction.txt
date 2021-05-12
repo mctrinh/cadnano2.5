@@ -1,0 +1,24 @@
+1. Clone the repository of cadnano 2.5 from Git.
+2. In VSC, open the cloned folder of cadnano 2.5, open terminal
+3. Create a new virtual environment (e.g. cadnanoENV) with python=3.6
+	conda create -n cadnanoENV python=3.6
+4. Activate the newly created environment:
+	conda activate cadnanoENV
+5. Follow instruction in this link: https://cadnano.readthedocs.io/en/master/installation.html as follows:
+
+i) Launch cadnano by command
+	cadnano
+ii) Errors pop up, follow the Error messages to install all required packages:
+	pip install PyQt5
+	pip install ...
+iii) Try to launch cadnano after each package installation, to see if there is any other required packages to install.
+iv) When successfully installed, cadnano will run.
+v) Create the icon of cadnano in start menu:
+	cadnanoinstall
+vi) Find the icon in start menu, and pull it to mean screen.
+
+Enjoy!!! 
+
+Note: 
+- All envs created are managed in Anaconda!!!
+- VSC for coding
